@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+body{
+    background-color: aliceblue;
+    font-size: 16px;
+    font-family: 'Karla';
+    
+    
+}
+.head{
+    display: grid;
+    background-color: white;
+    grid-template: 1fr/1fr 1fr;
+    width: 600px;
+    border-radius: 20px;
+    margin: 500px;
+}
+.first{
+    grid-column: span 2;
+    padding: 25px;
+}
+ .second{
+    background-color: hsl(179, 62%, 43%);
+    padding: 25px;
+    border-radius: 0 0 0 20px;
+ }
+.third{
+    background-color: hsl(179, 77%, 47%);
+    padding: 25px;
+    border-radius: 0 0 20px 0;
+}
+h2{
+    color:hsl(179, 62%, 43%) ;
+}
+h3{
+    color:hsl(71, 73%, 54%);
+}
+p{
+    color:  hsl(218, 22%, 67%);
+}
+.third p{
+    color: hsl(204, 43%, 93%);
+}
+.second p{
+    color: hsl(204, 43%, 93%);
+}
+.spike{
+    color: hsl(204, 43%, 93%);
+}
+.develop{
+    color: hsl(218, 22%, 67%);
+}
+span{
+    font-size: x-large;
+    color: hsl(204, 43%, 93%);
+}
+.button{
+     background-color: hsl(71, 73%, 54%);
+     width: 95%;
+     border: none;
+     height: 30px;
+     text-align: center;
+     border-radius: 6px;
+     padding-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: hsl(204, 43%, 93%);
+    font-size: medium;
+    font-weight: 700;
+}
